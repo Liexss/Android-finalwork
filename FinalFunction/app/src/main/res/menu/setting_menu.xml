@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/itemadmin"
+            android:title="用户信息"
+            android:icon="@drawable/map"
+            ></item>
+    </group>
+    <group android:id="@+id/g2">
+    <item
+        android:id="@+id/itemcity"
+        android:title="选择城市"
+        android:icon="@drawable/map"
+    ></item>
+    </group>
+    <group android:id="@+id/g3">
+    <item
+        android:id="@+id/itemhis"
+        android:title="历史天数"
+        android:icon="@drawable/map"
+        ></item>
+    </group>
+    <group android:id="@+id/g4">
+    <item
+        android:id="@+id/itemlogin"
+        android:title="是否自动登陆"
+        android:icon="@drawable/map"
+        ></item>
+    </group>
+</menu>
